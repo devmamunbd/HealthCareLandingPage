@@ -340,6 +340,59 @@ const Home = () => {
       </div>
 
 
+
+          {/* FAQ */}
+
+          <div className='mt-24'>
+          <div>
+            <button className='border-[1px] border-black px-6 py-2 rounded-full'>Faq</button>
+            <h1 className='text-black font-bold mt-4 text-3xl'>Frequently Asked Question</h1>
+          </div>
+
+          <div className='mt-8'>
+          <div className="collapse collapse-arrow bg-base-200 mb-3">
+            <input type="radio" name="my-accordion-2" defaultChecked />
+            <div className="collapse-title text-xl font-medium">What Are Your Offer Hour</div>
+            <div className="collapse-content">
+              <p>I am available to work Monday through Friday, and I am very flexible about the start and end times on those days</p>
+            </div>
+          </div>
+          <div className="collapse collapse-arrow bg-base-200 mb-3">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium">How Can I Schedule An Appoinment</div>
+            <div className="collapse-content">
+              <p>Introduce yourself. The first thing to do in a conversation is to introduce yourself . ...
+              Explain why you're contacting them. Once you introduce yourself, the next step is to explain why you're contacting them</p>
+            </div>
+          </div>
+          <div className="collapse collapse-arrow bg-base-200 mb-3">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium">Do You Accept Insurence?</div>
+            <div className="collapse-content">
+              <p>Scheduled Personal Property Endorsement: This endorsement is sometimes called a "personal article floater.</p>
+            </div>
+          </div>
+
+          <div className="collapse collapse-arrow bg-base-200 mb-3">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium">What Should I bring to My Appointment?</div>
+            <div className="collapse-content">
+              <p>Some doctors suggest you put all your prescription drugs, over-the-counter medicines, vitamins, and herbal remedies or supplements in a bag and bring them with you. Others recommend you bring a list of everything you take and the dose.</p>
+            </div>
+          </div>
+
+          <div className="collapse collapse-arrow bg-base-200 mb-3">
+            <input type="radio" name="my-accordion-2" />
+            <div className="collapse-title text-xl font-medium">Do You Offer Telemedecine Appoinments?</div>
+            <div className="collapse-content">
+              <p>Some clinics can provide virtual appointments with a doctor through online video conferencing. When an in-person visit is not required or necessary.</p>
+            </div>
+          </div>
+          </div>
+          </div>
+
+
+
       </div>
     </div>
   )
