@@ -10,6 +10,7 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 
+
 const Home = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const Home = () => {
         
           </div>
         <div>
-        <img className='' src="/public/Rectangle 5.png" alt="" />
+        <img className='' src="https://i.postimg.cc/V6wZhRD0/Rectangle-5.png" alt="" />
         </div>
         </div>
 
@@ -105,7 +106,7 @@ const Home = () => {
 
         <div className='relative'>
           <div>
-            <img src="/public//Rectangle 24.png" alt="" />
+            <img src="https://i.postimg.cc/3NJS8wMK/Rectangle-24.png" alt="" />
           </div>
           <div className='absolute -bottom-10 -left-10'>
             <div className='bg-violet-900 w-96 rounded-2xl p-4'>
@@ -139,7 +140,7 @@ const Home = () => {
 
         <div className='relative'>
           <div className=''>
-            <img className='rounded-2xl' src="/public/Rectangle 27-2.png" alt="" />
+            <img className='rounded-2xl' src="https://i.postimg.cc/NGpCNRTL/Rectangle-27-2.png" alt="" />
           </div>
           <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
           <h1 className='text-white text-2xl'>Advance Technology</h1>
@@ -155,7 +156,7 @@ const Home = () => {
 
         <div className='relative'>
           <div className=''>
-            <img className='rounded-2xl' src="/public/Rectangle 27-1.png" alt="" />
+            <img className='rounded-2xl' src="https://i.postimg.cc/8PcKxsB4/Rectangle-27-1.png" alt="" />
           </div>
           <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
           <h1 className='text-white text-2xl'>Advance Technology</h1>
@@ -172,7 +173,7 @@ const Home = () => {
 
         <div className='relative'>
           <div className=''>
-            <img className='rounded-2xl' src="/public/Rectangle 27.png" alt="" />
+            <img className='rounded-2xl' src="https://i.postimg.cc/Qxz4Dsf3/Rectangle-27.png" alt="" />
           </div>
           <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
           <h1 className='text-white text-2xl'>Advance Technology</h1>
@@ -396,7 +397,7 @@ const Home = () => {
 
             <div className='mt-14 relative'>
               <div className=''>
-                <img className='rounded-2xl' src="/public//Rectangle 32.png" alt="" />
+                <img className='rounded-2xl' src="https://i.postimg.cc/SKFgXd01/Rectangle-32.png" alt="" />
               </div>
               <div className='absolute flex items-center h-full top-0 left-0 bg-gradient-to-r from-[#0B094A] to-[rgba(80, 54, 78, 0.)] rounded-2xl'>
               <div className='pl-10'>
@@ -408,7 +409,7 @@ const Home = () => {
               </div>
               </div>
               <div className='absolute top-16 right-12'>
-                <img className='' src="/public/logo light.png" alt="" />
+                <img className='' src="https://i.postimg.cc/fLM5CbRx/logo-light.png" alt="" />
               </div>
             </div>
 
