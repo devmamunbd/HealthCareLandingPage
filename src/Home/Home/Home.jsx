@@ -3,6 +3,8 @@ import { FaStar } from "react-icons/fa6";
 import { GiTwoCoins } from "react-icons/gi";
 import { IoIosVideocam } from 'react-icons/io';
 import { GoArrowUpRight } from "react-icons/go";
+import { FiArrowUpRight } from "react-icons/fi";
+
 
 
 const Home = () => {
@@ -116,13 +118,74 @@ const Home = () => {
 
         {/* four-section */}
 
-        <div className='px-12'>
+        <div className='mt-60'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
 
-        <div className='flex flex-col md:flex-row gap-6'>
+        <div className='space-y-2'>
+            <button className='border-[1px] border-black text-black px-8 py-2 bg-transparent rounded-full'>Service</button>
+            <div className='space-y-3'>
+              <h1 className='text-3xl font-semibold text-black'>Empoering Health, <br />Enriching Lives</h1>
+              <p className='text-xl text-black'>A solution is a mixture of two or more species that form a homogeneous single phase. Solutions are normally thought of in terms of liquids; however, solutions may include solids and even gases. Virtually all-industrial crystallization processes involve solutions.</p>
+           <div className='flex gap-2 items-center bg-yellow-500 px-8 py-2 w-44 rounded-lg '>
+           <button className='text-black font-bold'>Appoinment</button>
+           <FiArrowUpRight className='text-4xl font-bold text-black'/>
+           </div>
+            </div>
+          </div>
 
+
+        <div className='relative'>
+          <div className=''>
+            <img className='rounded-2xl' src="/public/Rectangle 27-2.png" alt="" />
+          </div>
+          <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
+          <h1 className='text-white text-2xl'>Advance Technology</h1>
+          <p className='text-white'>Our sergeons are trained in the latest <br /> robotic surgical techniques, which <br />allow for greater precision</p>
+          <div className='flex justify-end mt-3 bg-yellow-500 rounded-full w-10 h-10'>
+          <div className='mt-3 mr-3 text-white'>
+          <GoArrowUpRight className=''/>
+          </div>
+
+          </div>
+          </div>
+        </div>
+
+        <div className='relative'>
+          <div className=''>
+            <img className='rounded-2xl' src="/public/Rectangle 27-1.png" alt="" />
+          </div>
+          <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
+          <h1 className='text-white text-2xl'>Advance Technology</h1>
+          <p className='text-white'>Our sergeons are trained in the latest <br /> robotic surgical techniques, which <br />allow for greater precision</p>
+          <div className='flex justify-end mt-3 bg-yellow-500 rounded-full w-10 h-10'>
+          <div className='mt-3 mr-3 text-white'>
+          <GoArrowUpRight className=''/>
+          </div>
+
+          </div>
+          </div>
         </div>
 
 
+        <div className='relative'>
+          <div className=''>
+            <img className='rounded-2xl' src="/public/Rectangle 27.png" alt="" />
+          </div>
+          <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
+          <h1 className='text-white text-2xl'>Advance Technology</h1>
+          <p className='text-white'>Our sergeons are trained in the latest <br /> robotic surgical techniques, which <br />allow for greater precision</p>
+          <div className='flex justify-end mt-3 bg-yellow-500 rounded-full w-10 h-10'>
+          <div className='mt-3 mr-3 text-white'>
+          <GoArrowUpRight className=''/>
+          </div>
+
+          </div>
+          </div>
+        </div>
+
+
+
+        </div>
         </div>
 
 
