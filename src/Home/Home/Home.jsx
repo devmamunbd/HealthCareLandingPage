@@ -16,7 +16,7 @@ const Home = () => {
       <div>
         <div className='home-img py-6 '>
           <div>
-
+        
           </div>
         <div>
         <img className='' src="/public/Rectangle 5.png" alt="" />
@@ -121,7 +121,7 @@ const Home = () => {
 
         {/* four-section */}
 
-        <div className='mt-60'>
+        <div className='mt-44'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
 
         <div className='space-y-2'>
@@ -392,6 +392,25 @@ const Home = () => {
           </div>
 
 
+            {/* Appointment */}
+
+            <div className='mt-14 relative'>
+              <div className=''>
+                <img className='rounded-2xl' src="/public//Rectangle 32.png" alt="" />
+              </div>
+              <div className='absolute flex items-center h-full top-0 left-0 bg-gradient-to-r from-[#0B094A] to-[rgba(80, 54, 78, 0.)] rounded-2xl'>
+              <div className='pl-10'>
+              <h1 className='text-3xl text-white font-semibold'>Get Your <br /> First Appoinmtent <br />at 50% off!</h1>
+              <div className='flex gap-6 mt-6 '>
+                <button className='bg-yellow-500 px-8 py-2 font-bold text-white rounded-xl'>Appoinments</button>
+                <button className='border-[1px] border-white px-8 py-2 font-bold text-white rounded-xl'>Learn More</button>
+              </div>
+              </div>
+              </div>
+              <div className='absolute top-16 right-12'>
+                <img className='' src="/public/logo light.png" alt="" />
+              </div>
+            </div>
 
       </div>
     </div>
