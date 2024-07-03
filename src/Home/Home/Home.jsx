@@ -4,7 +4,10 @@ import { GiTwoCoins } from "react-icons/gi";
 import { IoIosVideocam } from 'react-icons/io';
 import { GoArrowUpRight } from "react-icons/go";
 import { FiArrowUpRight } from "react-icons/fi";
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 
 const Home = () => {
@@ -188,6 +191,153 @@ const Home = () => {
         </div>
         </div>
 
+
+      {/* testimonial */}
+
+      <div className='mt-40'>
+        <div>
+          <button className='bg-transparent px-8 py-2 border-[1px] border-black rounded-full'>Testimonial</button>
+          <h1 className='text-3xl text-black font-bold mt-7'>What the say about us</h1>
+        </div>
+
+        <div className='mt-12 '>
+        <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className='bg-[#FFFFF5] p-3'>
+            <div>
+              <h1 className='text-xl font-bold text-black'>Expertise and Compassion <br /> Combined</h1>
+              <p>In this post, you will learn how to combine two articles on your blog to website to improve SEO, boost content authority, and increase</p>
+            </div>
+            <div className='flex gap-3 items-center mt-2'>
+              <div>
+                <img className='w-10 h-10 rounded-full' src="https://i.postimg.cc/CxmqD99D/istockphoto-1437816897-612x612.jpg" alt="" />
+              </div>
+              <div>
+                <h1><span className='font-bold text-black'>Sarah D,</span> It Professional</h1>
+                <div className='flex text-yellow-500'>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className='bg-[#FFFFF5] p-3'>
+            <div>
+              <h1 className='text-xl font-bold text-black'>A Partner In health and  <br /> Wellness</h1>
+              <p>In this post, you will learn how to combine two articles on your blog to website to improve SEO, boost content authority, and increase</p>
+            </div>
+            <div className='flex gap-3 items-center mt-2'>
+              <div>
+                <img className='w-10 h-10 rounded-full' src="https://i.postimg.cc/4xzxv29D/stock-photo-doubtful-hispanic-man-looking-with-disbelief-expression.jpg" alt="" />
+              </div>
+              <div>
+                <h1><span className='font-bold text-black'>Micheal R,</span> Business Executive</h1>
+                <div className='flex text-yellow-500'>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className='bg-[#FFFFF5] p-3'>
+            <div>
+              <h1 className='text-xl font-bold text-black'>Life-Saving Care, Life-Changing <br /> Experience</h1>
+              <p>In this post, you will learn how to combine two articles on your blog to website to improve SEO, boost content authority, and increase</p>
+            </div>
+            <div className='flex gap-3 items-center mt-2'>
+              <div>
+                <img className='w-10 h-10 rounded-full' src="https://i.postimg.cc/HsFr97Py/images-15.jpg" alt="" />
+              </div>
+              <div>
+                <h1><span className='font-bold text-black'>David Smith,</span> Lawyer</h1>
+                <div className='flex text-yellow-500'>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className='bg-[#FFFFF5] p-3'>
+            <div>
+              <h1 className='text-xl font-bold text-black'>Expertise and Compassion <br /> Combined</h1>
+              <p>In this post, you will learn how to combine two articles on your blog to website to improve SEO, boost content authority, and increase</p>
+            </div>
+            <div className='flex gap-3 items-center mt-2'>
+              <div>
+                <img className='w-10 h-10 rounded-full' src="https://i.postimg.cc/CxmqD99D/istockphoto-1437816897-612x612.jpg" alt="" />
+              </div>
+              <div>
+                <h1><span className='font-bold text-black'>Sarah D,</span> It Professional</h1>
+                <div className='flex text-yellow-500'>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='bg-[#FFFFF5] p-3'>
+            <div>
+              <h1 className='text-xl font-bold text-black'>Expertise and Compassion <br /> Combined</h1>
+              <p>In this post, you will learn how to combine two articles on your blog to website to improve SEO, boost content authority, and increase</p>
+            </div>
+            <div className='flex gap-3 items-center mt-2'>
+              <div>
+                <img className='w-10 h-10 rounded-full' src="https://i.postimg.cc/CxmqD99D/istockphoto-1437816897-612x612.jpg" alt="" />
+              </div>
+              <div>
+                <h1><span className='font-bold text-black'>Sarah D,</span> It Professional</h1>
+                <div className='flex text-yellow-500'>
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                <FaStar />
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        
+      </Swiper>
+        </div>
+
+      </div>
 
 
       </div>
