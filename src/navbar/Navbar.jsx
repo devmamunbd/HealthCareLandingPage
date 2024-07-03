@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { MdArrowOutward } from "react-icons/md";
 
 
 const Navbar = () => {
@@ -46,7 +47,11 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className=" border-[1px] cursor-pointer border-r-slate-400 px-8 py-2 
+    rounded-lg text-sky-700 font-semibold">Appointment 
+    {/* <span><MdArrowOutward /></span> */}
+</a>
+
   </div>
 </div>
     </div>
