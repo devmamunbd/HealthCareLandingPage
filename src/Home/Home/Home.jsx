@@ -2,6 +2,7 @@ import React from 'react'
 import { FaStar } from "react-icons/fa6";
 import { GiTwoCoins } from "react-icons/gi";
 import { IoIosVideocam } from 'react-icons/io';
+import { GoArrowUpRight } from "react-icons/go";
 
 
 const Home = () => {
@@ -81,6 +82,49 @@ const Home = () => {
       </div>
 
         {/* 3rd-section */}
+
+        <div>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-14'>
+          <div className='space-y-2'>
+            <button className='border-[1px] border-black text-black px-8 py-2 bg-transparent rounded-full'>Who we are</button>
+            <div className='space-y-3'>
+              <h1 className='text-3xl font-bold text-black'>We Help To Go <br />Solutios</h1>
+              <p className='text-xl text-black'>A solution is a mixture of two or more species that form a homogeneous single phase. Solutions are normally thought of in terms of liquids; however, solutions may include solids and even gases. Virtually all-industrial crystallization processes involve solutions.</p>
+           <div className='flex gap-2 items-center bg-yellow-500 px-8 py-2 w-44 rounded-lg '>
+           <button className='text-black font-bold'>Learn More</button>
+           <GoArrowUpRight className='text-black font-bold' />
+
+           </div>
+            </div>
+          </div>
+
+        <div className='relative'>
+          <div>
+            <img src="/public//Rectangle 24.png" alt="" />
+          </div>
+          <div className='absolute -bottom-10 -left-10'>
+            <div className='bg-violet-900 w-96 rounded-2xl p-4'>
+            <h1 className='text-2xl text-white'>Our mission is simple</h1>
+            <p className='text-gray-200'>To provide high-quality healthcare services <br /> that are accessible, personalized, and <br /> patient-centered</p>
+            </div>
+          </div>
+        </div>
+
+          </div>
+        </div>
+
+
+        {/* four-section */}
+
+        <div className='px-12'>
+
+        <div className='flex flex-col md:flex-row gap-6'>
+
+        </div>
+
+
+        </div>
+
 
 
       </div>
