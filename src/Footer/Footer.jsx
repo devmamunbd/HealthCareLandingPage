@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-[#020043] mt-20 p-20">
+    <div className="bg-[#020043] w-full mt-20 p-20">
         <div className="flex flex-col md:flex-row gap-6 justify-between md:items-center lg:items-end">
             <div className="">
                 <img className="w-20 mb-6" src="https://i.postimg.cc/fLM5CbRx/logo-light.png" alt="" />

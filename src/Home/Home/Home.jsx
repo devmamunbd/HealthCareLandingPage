@@ -15,18 +15,20 @@ const Home = () => {
   return (
     <div>
       <div>
-        <div className='home-img py-6 relative'>
+        <div className='home-img py-6 '>
+        <div className='relative'>
         <div className=' '>
         <img className='' src="https://i.postimg.cc/V6wZhRD0/Rectangle-5.png" alt="" />
         </div>
-        <div className='absolute rounded-b-[48px] top-5  w-full h-[78vh] bg-gradient-to-t from-[#474473] to-[rgba(2, 0, 67, 0.47)]'>
+        <div className='absolute rounded-b-[48px] top-5 w-full h-[73vh] bg-gradient-to-t from-[#474473] to-[rgba(2, 0, 67, 0.47)]'>
+        </div>
         </div>
         </div>
 
         
       {/* care for every */}
 
-      <div className='relative'>
+      <div className='relative mt-16'>
         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 py-8'>
 
           <div className='bg-white shadow-lg px-4 py-2 rounded-lg border-[1px] border-gray-600'>
@@ -81,18 +83,18 @@ const Home = () => {
 
         </div>
 
-      <div className='text-center absolute bottom-60 left-[23rem]'>
-        <h1 className='text-4xl text-black font-bold'>Comperehsive Care <br /> for Every Patient</h1>
+      <div className='text-center absolute -top-16 left-96 lg:top-3 lg:left-[23rem]'>
+        <h1 className='text-3xl md:text-4xl text-black font-bold'>Comperehsive Care <br /> for Every Patient</h1>
       </div>
       </div>
 
         {/* 3rd-section */}
 
         <div>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-14'>
-          <div className='space-y-2'>
-            <button className='border-[1px] border-black text-black px-8 py-2 bg-transparent rounded-full'>Who we are</button>
-            <div className='space-y-3'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-5 sm:justify-items-center sm:items-center mt-14'>
+          <div className='space-y-2 sm:text-center md:text-left'>
+            <button className='border-[1px]  border-black text-black px-8 py-2 bg-transparent rounded-full'>Who we are</button>
+            <div className='space-y-3 '>
               <h1 className='text-3xl font-bold text-black'>We Help To Go <br />Solutios</h1>
               <p className='text-xl text-black'>A solution is a mixture of two or more species that form a homogeneous single phase. Solutions are normally thought of in terms of liquids; however, solutions may include solids and even gases. Virtually all-industrial crystallization processes involve solutions.</p>
            <div className='flex gap-2 items-center bg-yellow-500 px-8 py-2 w-44 rounded-lg '>
@@ -104,10 +106,10 @@ const Home = () => {
           </div>
 
         <div className='relative'>
-          <div>
+          <div className=''>
             <img src="https://i.postimg.cc/3NJS8wMK/Rectangle-24.png" alt="" />
           </div>
-          <div className='absolute -bottom-10 -left-10'>
+          <div className='absolute sm:bottom-5 sm:left-5 md:-bottom-10 md:-left-10'>
             <div className='bg-violet-900 w-96 rounded-2xl p-4'>
             <h1 className='text-2xl text-white'>Our mission is simple</h1>
             <p className='text-gray-200'>To provide high-quality healthcare services <br /> that are accessible, personalized, and <br /> patient-centered</p>
@@ -122,9 +124,9 @@ const Home = () => {
         {/* four-section */}
 
         <div className='mt-44'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-6 sm:justify-items-center sm:items-center'>
 
-        <div className='space-y-2'>
+        <div className='space-y-2 sm:text-center md:text-left'>
             <button className='border-[1px] border-black text-black px-8 py-2 bg-transparent rounded-full'>Service</button>
             <div className='space-y-3'>
               <h1 className='text-3xl font-semibold text-black'>Empoering Health, <br />Enriching Lives</h1>
@@ -195,7 +197,7 @@ const Home = () => {
       {/* testimonial */}
 
       <div className='mt-40'>
-        <div>
+        <div className='sm:text-center md:text-left'>
           <button className='bg-transparent px-8 py-2 border-[1px] border-black rounded-full'>Testimonial</button>
           <h1 className='text-3xl text-black font-bold mt-7'>What the say about us</h1>
         </div>
