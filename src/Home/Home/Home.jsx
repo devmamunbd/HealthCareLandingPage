@@ -15,16 +15,15 @@ const Home = () => {
   return (
     <div>
       <div>
-        <div className='home-img py-6 '>
-          <div>
-        
-          </div>
-        <div>
+        <div className='home-img py-6 relative'>
+        <div className=' '>
         <img className='' src="https://i.postimg.cc/V6wZhRD0/Rectangle-5.png" alt="" />
         </div>
+        <div className='absolute rounded-b-[48px] top-5  w-full h-[78vh] bg-gradient-to-t from-[#474473] to-[rgba(2, 0, 67, 0.47)]'>
+        </div>
         </div>
 
-
+        
       {/* care for every */}
 
       <div className='relative'>
@@ -159,7 +158,7 @@ const Home = () => {
             <img className='rounded-2xl' src="https://i.postimg.cc/8PcKxsB4/Rectangle-27-1.png" alt="" />
           </div>
           <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
-          <h1 className='text-white text-2xl'>Advance Technology</h1>
+          <h1 className='text-white text-2xl'>Online Doctor Meet</h1>
           <p className='text-white'>Our sergeons are trained in the latest <br /> robotic surgical techniques, which <br />allow for greater precision</p>
           <div className='flex justify-end mt-3 bg-yellow-500 rounded-full w-10 h-10'>
           <div className='mt-3 mr-3 text-white'>
@@ -176,7 +175,7 @@ const Home = () => {
             <img className='rounded-2xl' src="https://i.postimg.cc/Qxz4Dsf3/Rectangle-27.png" alt="" />
           </div>
           <div className='bg-[#020043] absolute bottom-8 left-8 opacity-80 rounded-2xl p-4 w-80'>
-          <h1 className='text-white text-2xl'>Advance Technology</h1>
+          <h1 className='text-white text-2xl'>Consultancy your Health</h1>
           <p className='text-white'>Our sergeons are trained in the latest <br /> robotic surgical techniques, which <br />allow for greater precision</p>
           <div className='flex justify-end mt-3 bg-yellow-500 rounded-full w-10 h-10'>
           <div className='mt-3 mr-3 text-white'>
@@ -399,7 +398,7 @@ const Home = () => {
               <div className=''>
                 <img className='rounded-2xl' src="https://i.postimg.cc/SKFgXd01/Rectangle-32.png" alt="" />
               </div>
-              <div className='absolute flex items-center h-full top-0 left-0 bg-gradient-to-r from-[#0B094A] to-[rgba(80, 54, 78, 0.)] rounded-2xl'>
+              <div className='absolute flex items-center w-full h-full top-0 left-0 bg-gradient-to-r from-[#0B094A] to-[rgba(80, 54, 78, 0.)] rounded-2xl'>
               <div className='pl-10'>
               <h1 className='text-3xl text-white font-semibold'>Get Your <br /> First Appoinmtent <br />at 50% off!</h1>
               <div className='flex gap-6 mt-6 '>
